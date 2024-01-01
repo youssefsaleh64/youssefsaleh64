@@ -13,7 +13,7 @@ app.use(express.json())
 
 //connection string = mongodb+srv://youssefsaleh64:<password>@todolistdatabase.asdpxj4.mongodb.net/?retryWrites=true&w=majority
 
-const uri = "mongodb+srv://youssefsaleh64:GATiiXUrm6q8SWSM@todolistdatabase.asdpxj4.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://<username>:<password>@todolistdatabase.asdpxj4.mongodb.net/?retryWrites=true&w=majority";
 
 // DB connection
 mongoose.connect(uri);
