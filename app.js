@@ -11,7 +11,7 @@ const port = 3000
 // Middleware
 app.use(express.json())
 
-//connection string = mongodb+srv://youssefsaleh64:<password>@todolistdatabase.asdpxj4.mongodb.net/?retryWrites=true&w=majority
+//connection string = mongodb+srv://<username>:<password>@todolistdatabase.asdpxj4.mongodb.net/?retryWrites=true&w=majority
 
 const uri = "mongodb+srv://<username>:<password>@todolistdatabase.asdpxj4.mongodb.net/?retryWrites=true&w=majority";
 
